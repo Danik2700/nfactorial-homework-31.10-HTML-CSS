@@ -1,0 +1,108 @@
+.grid{
+   display: grid;
+   grid-template-columns: 2fr 2fr; 
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: 5fr 0.5fr; 
+    padding-top: 10px;
+ }
+
+ .grid3{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 0.55fr; 
+    padding-top: 10px;
+ }
+
+ .flexbox{
+    background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 50px; 
+ }
+ .flexbox2{
+    background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 50px; 
+ }
+ .flexbox3{
+   background: blue;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; */
+  height: 40px;
+  padding: 0 50px;
+ }
+ .fone{
+    background-color: green;
+ }
+
+.divred{
+    height: 40px;
+    background-color: red;
+}
+.divred2{
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 15px;
+    background-color: red;
+    justify-content: center;
+}
+.divblue{
+    height: 40px;
+    background-color: blue;
+}
+.divblue2{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    justify-content: center;
+}
+.divred3{
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+}
+.divblue3{
+    height: 15px;
+  width: auto;
+
+  background-color: blue;
+}
+
+.divgreen{
+    height: 40px;
+    background-color: green;
+}
+.divgreen2{
+    display: flex;
+justify-content: flex-end;
+    height: 11px;
+  width: auto;
+
+  background-color: green;
+}
+.grid4{
+    background-color: green;
+    display: flex;
+}
+.grid4 divgreen3{
+    min-width: 30px;
+    height: 20px;
+     border-style: solid;
+ }
+ .grid4 divgreen3:nth-child(even){
+    background-color: orange;
+ }
+
